@@ -1,7 +1,7 @@
 import requests
 
 numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
-city_name = input("Enter your city:").lower()
+city_name = input("Enter your city: ").lower()
 try:
     def response_func():
         api_url = 'https://api.api-ninjas.com/v1/city?name={}'.format(city_name)
