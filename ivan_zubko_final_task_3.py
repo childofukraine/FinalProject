@@ -22,3 +22,5 @@ try:
         get_data()
 except KeyError as e:
     print(f"Invalid currency name: {str(currency_from[0])}")
+except Exception as ex:
+    print("System Error")
